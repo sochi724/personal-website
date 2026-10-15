@@ -1,0 +1,47 @@
+<html>
+    <body>
+        <div Id="title">
+            <h1>  Welcome to Sochi's Web Page</h1> 
+      <p>         This is where dreams come through</p>
+<button onclick="Makedreamcometrue()"> Make dreams come true</button>
+        </div>
+        
+    </body>
+</html>
+
+<style>
+
+    body{
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU83vbLWw_qP7nF3IvxfvJWtXbvBgwRtHSEP9hv7Ek3Q&s=10');
+        background-size: cover;
+    }
+        
+
+  h1 {
+    color: rgb(255, 5, 5);
+    text-align: center;
+  }  
+  button {
+    background-color: rgb(166, 255, 0);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  #title {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+</style>
+
+<script>
+    function Makedreamcometrue() {
+        alert("Dreams has come true!");
+        document.body.style.background = "url('https://images.hive.blog/0x0/https://media.tenor.com/GZpnzt-H1jwAAAAC/welcome-pink.gif')"
+        document.body.style.backgroundSize = "cover";
+        document.getElementById("title").style.visibility = "hidden";
+    }
+</script>
